@@ -1,0 +1,73 @@
+
+* {
+	font-size: 20px ;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+ul {
+	list-style-type: none;
+}
+.month {
+	padding: 30px 25px;
+	width: 94%;
+	background: #000000;
+	text-align: center;
+}
+.month ul {
+	margin: 0;
+	padding: 0;
+}
+.month ul li {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.month .prev {
+	float: left;
+	padding: 10px;
+}
+.month .next {
+	float: right;
+	padding: 10px;
+}
+.weekdays {
+	margin: 0;
+	padding: 10px 0;
+	background: darkgoldenrod;
+}
+.weekdays li {
+	display: inline-block;
+	width: 13.6%;
+	text-align: center;
+	color: #goldenrod;
+}
+.days {
+	padding: 10px 0;
+	background: linear-gradient(white,lightblue);
+	margin: 0;
+}
+.days li {
+	list-style-type: none;
+	display: inline-block;
+	width: 13.6%;
+	text-align: center;
+	margin-bottom: 20px ;
+	color: grey;
+	cursor: pointer;
+}
+.days li:hover{
+	text-decoration: underline;
+	color: black;
+	font-size: 22px;
+}
+.days li .active{
+	color: whitesmoke;
+	padding: 5px;
+	background: peachpuff;
+}
+.e{
+	width: 70%;
+	margin-left: 150px;
+
+}
